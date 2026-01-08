@@ -2,20 +2,19 @@
 // Write a function that checks if a string is a palindrome (reads the same forward and backward).
 
 // Example:
-
 // Input: "madam"
 // Output: true
 // Input: "hello"
 // Output: false
 
-function isPalindrome(str) {
+function isPalindrome(string) {
   let reversed = "";
 
-  for (let i = str.length - 1; i >= 0; i--) {
-    reversed = reversed + str[i];
+  for (let i = string.length - 1; i >= 0; i--) {
+    reversed = reversed + string[i];
   }
 
-  if (str === reversed) {
+  if (string === reversed) {
     return true;
   } else {
     return false;

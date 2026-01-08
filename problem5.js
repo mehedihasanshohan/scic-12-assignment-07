@@ -2,16 +2,15 @@
 // Write a function that removes all duplicate numbers from an array.
 
 // Example:
-
 // Input: [1, 2, 2, 3, 4, 4]
 // Output: [1, 2, 3, 4]
 
-function removeDuplicates(arr) {
+function removeDuplicates(array) {
   let unique = [];
 
-  for (let i = 0; i < arr.length; i++) {
-    if (unique.indexOf(arr[i]) === -1) {
-      unique.push(arr[i]);
+  for (let i = 0; i < array.length; i++) {
+    if (unique.indexOf(array[i]) === -1) {
+      unique.push(array[i]);
     }
   }
 

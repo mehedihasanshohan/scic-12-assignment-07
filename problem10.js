@@ -2,7 +2,6 @@
 // Write a function that prints numbers from 1 to 20.
 
 // Example:
-
 // For multiples of 3, print "Ping"
 // For multiples of 5, print "Pong"
 // For multiples of both 3 and 5, print "PingPong"

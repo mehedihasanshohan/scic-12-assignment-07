@@ -5,11 +5,11 @@
 // Input: "hello"
 // Output: "olleh"
 
-function reverseString(str) {
+function reverseString(string) {
   let reversed = "";
 
-  for (let i = str.length - 1; i >= 0; i--) {
-    reversed = reversed + str[i];
+  for (let i = string.length - 1; i >= 0; i--) {
+    reversed = reversed + string[i];
   }
 
   return reversed;
